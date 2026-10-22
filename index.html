@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CRAB SEQUENTIAL v15 — Kapsamlı Tanıtım</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg: #05080F;
+  --panel: #0B1220;
+  --panel2: #111827;
+  --border: #1E293B;
+  --gold: #FFC107;
+  --buy: #089981;
+  --buy-plus: #2EC4B6;
+  --sell: #F23645;
+  --sell-plus: #FF6B81;
+  --bo: #1E3A8A;
+  --text: #F8FAFC;
+  --muted: #94A3B8;
+  --dim: #64748B;
+}
+* { margin:0; padding:0; box-sizing:border-box; }
+body { background:var(--bg); color:var(--text); font-family:'Inter',system-ui,sans-serif; line-height:1.65; font-size:15.5px; }
+.container { max-width:1200px; margin:0 auto; padding:0 28px; }
+header { border-bottom:1px solid var(--border); background:rgba(5,8,15,0.92); backdrop-filter:blur(12px); position:sticky; top:0; z-index:100; }
+.nav { display:flex; justify-content:space-between; align-items:center; height:68px; }
+.logo { font-weight:700; font-size:19px; letter-spacing:-0.4px; }
+.logo span { color:var(--gold); }
+.badge { background:var(--gold); color:#000; font-size:11px; font-weight:700; padding:3px 9px; border-radius:4px; margin-left:10px; }
+
+.hero { padding:100px 0 70px; text-align:center; background:radial-gradient(ellipse at top,#111827 0%,transparent 70%); }
+.hero h1 { font-size:56px; font-weight:700; letter-spacing:-1.8px; line-height:1.06; margin:18px 0 20px; }
+.hero h1 em { color:var(--gold); font-style:normal; }
+.hero .lead { font-size:18.5px; color:var(--muted); max-width:780px; margin:0 auto 28px; }
+.pill { display:inline-flex; align-items:center; gap:8px; background:var(--panel); border:1px solid var(--border); padding:7px 16px; border-radius:999px; font-size:13px; color:var(--gold); }
+
+.section { padding:85px 0; border-top:1px solid var(--border); }
+.section h2 { font-size:34px; font-weight:600; letter-spacing:-0.6px; margin-bottom:14px; }
+.section .sub { color:var(--muted); max-width:760px; font-size:17px; margin-bottom:42px; }
+.section h3 { font-size:22px; margin:36px 0 14px; font-weight:600; }
+
+.grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(300px,1fr)); gap:22px; }
+.card { background:var(--panel); border:1px solid var(--border); border-radius:14px; padding:26px; }
+.card h4 { font-size:16.5px; margin-bottom:10px; font-weight:600; }
+.card p, .card li { color:var(--muted); font-size:14.5px; }
+.card ul { padding-left:18px; margin-top:8px; }
+
+.img-frame { background:var(--panel2); border:1px solid var(--border); border-radius:12px; padding:16px; margin:28px 0; text-align:center; }
+.img-frame img { max-width:100%; height:auto; border-radius:8px; display:block; margin:0 auto; }
+.caption { font-size:13px; color:var(--dim); margin-top:10px; }
+
+.terminal { background:#0A0F1C; border:1px solid var(--border); border-radius:10px; padding:18px 20px; font-family:'JetBrains Mono',monospace; font-size:13px; line-height:1.7; color:#CBD5E1; overflow-x:auto; }
+.gold { color:var(--gold); } .buy { color:var(--buy); } .sell { color:var(--sell); } .dim { color:var(--dim); }
+
+.tag { display:inline-block; padding:2px 8px; border-radius:4px; font-size:11px; font-weight:600; margin-right:6px; }
+.tag-al { background:var(--buy); color:#fff; }
+.tag-alplus { background:var(--buy-plus); color:#fff; }
+.tag-sat { background:var(--sell); color:#fff; }
+.tag-satplus { background:var(--sell-plus); color:#fff; }
+.tag-bo { background:var(--bo); color:#fff; }
+
+.coming { background:linear-gradient(145deg,#0E1524,#0B1220); border:1px solid var(--border); border-radius:16px; padding:56px 40px; text-align:center; margin:50px 0; }
+footer { border-top:1px solid var(--border); padding:36px 0; text-align:center; color:var(--dim); font-size:13px; }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="container nav">
+    <div class="logo">◆ CRAB SEQUENTIAL <span>v15</span> <span class="badge">GELİŞTİRME</span></div>
+    <div style="color:var(--muted); font-size:13.5px;">Scanner + Geometry · Kapanış Bazlı</div>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="container">
+    <div class="pill">● Henüz yayınlanmadı — çalışmalar devam ediyor</div>
+    <h1>Gerçek Dip ve Tepe<br>Tespiti İçin<br><em>Sıralı Kilitli Sistem</em></h1>
+    <p class="lead">
+      Finansal piyasalarda güven arayanlar için tasarlandı.  
+      Klasik ardışık sayım araçlarının en büyük zayıflığını (aynı yönde sürekli sinyal ve whipsaw) kapatan, tamamen kapanış bazlı çalışan, yapısal geometri ve çoklu hisse taraması içeren kapsamlı bir yapı.
+    </p>
+  </div>
+</section>
+
+<div class="container">
+  <div class="img-frame">
+    <img src="TUPRS.jpeg" alt="TUPRS üzerinde CRAB SEQUENTIAL görünümü">
+    <div class="caption">TUPRS — Tükeniş üçgeni, koordinat kutusu ve sinyal yerleşimi. Sayım periyodu ayarlanabilir.</div>
+  </div>
+</div>
+
+<section class="section">
+  <div class="container">
+    <h2>Çekirdek Mantık: Ardışık Sayım + Sıralı Kilit</h2>
+    <p class="sub">Sistem, kapanış fiyatının seçilen periyot önceki kapanışa göre ardışık aşağı veya yukarı hareketini sayar. Minimum eşiğe ulaşıldığında potansiyel tükeniş oluşur. Ancak sinyalin çıkması Sıralı Kilit mekanizmasına bağlıdır.</p>
+
+    <h3>Sayım Periyodu Esnekliği</h3>
+    <p style="color:var(--muted); margin-bottom:20px;">
+      Sayım periyodu (lookback) tamamen ayarlanabilir.  
+      <strong>1</strong> yapıldığında gecikme sıfıra iner — sinyal, eşik tamamlandığı barın kapanışında anında oluşur.  
+      Daha yüksek değerler (örneğin 2 veya 3) daha süzülmüş, daha az gürültülü sonuç verir.  
+      Kullanıcı ihtiyacına göre sıfır gecikme veya daha konservatif çalışma seçebilir.
+    </p>
+
+    <div class="grid">
+      <div class="card">
+        <h4>Sıralı Kilit Kuralları</h4>
+        <ul>
+          <li>Son sinyal AL ise bir sonraki sinyal SAT olmak zorundadır.</li>
+          <li>Son sinyal SAT ise bir sonraki sinyal AL olmak zorundadır.</li>
+          <li>Aynı yönde maksimum sinyal sayısı sınırlıdır (varsayılan 2).</li>
+          <li>Aynı yönde ek sinyal için: minimum bar aralığı + fiyat mesafesi (ATR ×) + minimum kalite skoru şartı aranır.</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h4>Neden Önemli?</h4>
+        <p>Klasik sequential indikatörler eşiğe her ulaştığında sinyal üretir. Bu, aynı yönde art arda işlem açılmasına ve gereksiz whipsaw’a yol açar. Sıralı kilit bunu yapısal olarak engeller.</p>
+      </div>
+    </div>
+
+    <h3>Sinyal Türleri</h3>
+    <div style="margin:16px 0 28px; line-height:2.2;">
+      <span class="tag tag-al">AL</span> İlk alış (dip tükenişi)<br>
+      <span class="tag tag-alplus">AL+</span> Aynı yönde ikinci alış (sıkı filtreli)<br>
+      <span class="tag tag-bo">BO</span> Breakout (önceki zirve kırılımı)<br>
+      <span class="tag tag-sat">SAT</span> İlk satış (tepe tükenişi)<br>
+      <span class="tag tag-satplus">SAT+</span> Aynı yönde ikinci satış
+    </div>
+  </div>
+</section>
+
+<div class="container">
+  <div class="img-frame">
+    <img src="VERUS.jpeg" alt="VERUS üzerinde geometri ve koordinat paneli">
+    <div class="caption">VERUS — Koordinat paneli, stop/TP seviyeleri ve seviye hafızası örneği.</div>
+  </div>
+</div>
+
+<section class="section" style="background:#070B14;">
+  <div class="container">
+    <h2>Kalite Skoru (0-100)</h2>
+    <p class="sub">Her sinyal aşağıdaki bileşenlerle puanlanır ve A+ / A / B olarak notlandırılır:</p>
+    <div class="grid">
+      <div class="card">
+        <h4>Puan Bileşenleri</h4>
+        <ul>
+          <li>Sayım derinliği (yüksek ağırlık)</li>
+          <li>EMA(50) mesafesi</li>
+          <li>RSI(14) konumu</li>
+          <li>Hacim oranı (20 periyot ortalamasına göre)</li>
+          <li>Mum yapısı (kapanışın konumu)</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h4>Notlandırma ve Kullanım</h4>
+        <p>A+ ≥ 75 · A ≥ 55 · B &lt; 55</p>
+        <p style="margin-top:12px;">Aynı yön ek sinyalleri (AL+/SAT+) için ayrı minimum skor eşiği tanımlanabilir. Böylece sadece yüksek kaliteli ek girişlere izin verilir.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <h2>Geometri ve Görsel Katmanlar</h2>
+    <p class="sub">Sadece sayı değil, yapı da görünür hale getirilir. Tüm katmanlar ayrı ayrı açılıp kapatılabilir.</p>
+
+    <div class="grid">
+      <div class="card">
+        <h4>Tükeniş Üçgeni</h4>
+        <p>Dip veya tepe serisinin en yüksek ve en düşük noktaları ile sinyal noktası arasında kapalı polyline üçgen çizilir.</p>
+      </div>
+      <div class="card">
+        <h4>Koordinat Kutusu</h4>
+        <p>Serinin başlangıç-bitiş aralığı, yüzde değişim ve High/Low değerleri kutu içinde gösterilir.</p>
+      </div>
+      <div class="card">
+        <h4>Diğer Görseller</h4>
+        <ul>
+          <li>Giriş elması</li>
+          <li>İşlem vektörü (giriş → çıkış çizgisi)</li>
+          <li>Dip/Tepe seviye hafızası (maksimum aktif seviye sınırı)</li>
+          <li>Sağ kenar fiyat etiketleri</li>
+          <li>TP isabet işaretleri ve stop çarpısı</li>
+          <li>Filtrelenen sinyallerin hayalet gösterimi (isteğe bağlı)</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="container">
+  <div class="img-frame">
+    <img src="AKBNK.jpeg" alt="AKBNK üzerinde sayım ve sinyal örneği">
+    <div class="caption">AKBNK — Sayım periyodu 1 (sıfır gecikme) ile çalışan örnek. Diğer zaman dilimlerinde veya hisselerde 2 bar olarak da kullanılabilir.</div>
+  </div>
+</div>
+
+<section class="section" style="background:#070B14;">
+  <div class="container">
+    <h2>İşlem Simülasyonu ve Risk Yönetimi</h2>
+    <p class="sub">Açık işlem takibi, stop ve hedef yönetimi içerir. Tüm kontroller kapanış bazlıdır.</p>
+
+    <div class="grid">
+      <div class="card">
+        <h4>Stop Seçenekleri</h4>
+        <ul>
+          <li>Yapısal (dip/tepe altı/üstü + ATR tampon)</li>
+          <li>Saf ATR çarpanı</li>
+          <li>Kapanış bazlı tetikleme</li>
+          <li>Açık işlemde yeni sinyal geldiğinde stop sıkılaştırma</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h4>Hedefler ve Trailing</h4>
+        <ul>
+          <li>TP1 / TP2 / TP3 (ATR çarpanlı, ayarlanabilir)</li>
+          <li>İsteğe bağlı trailing: BE → TP1 → TP2</li>
+          <li>Koordinat panelinde anlık R:R oranı ve yüzde değişimler</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h4>İstatistik ve Dashboard</h4>
+        <p>Kapanan işlem sayısı, win oranı, ortalama getiri, toplam getiri, açık pozisyon yüzdesi, sinyal zinciri ve anlık sayım durumu dashboard’da gösterilir.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <h2>Tarama Motoru (5 Grup × 40 Hisse)</h2>
+    <p class="sub">Pine Script istek limiti nedeniyle gruplar halinde çalışır. Her kopyada bir grup aktif edilir. Tarama zaman dilimi ayrıca seçilebilir. Listeler tamamen özelleştirilebilir.</p>
+
+    <div class="terminal">
+      <div class="gold">◆ CRAB SCAN · Aktif Grup · Günlük · 40 sembol &nbsp;&nbsp; ▲ AL &nbsp; ▼ SAT &nbsp; ● taze</div>
+      <div class="dim">Hisse&nbsp;&nbsp;&nbsp;Son&nbsp;&nbsp;&nbsp;&nbsp;AL(gün)&nbsp;SAT(gün)&nbsp;Kalite&nbsp;&nbsp;Sinyalden%&nbsp;&nbsp;Sayım</div>
+      <div><span class="buy">ÖRNEK</span>&nbsp;&nbsp;▲ AL&nbsp;&nbsp;&nbsp;&nbsp;0-1&nbsp;&nbsp;&nbsp;&nbsp;—&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A+&nbsp;&nbsp;&nbsp;&nbsp;+%&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▼▰▰▰</div>
+      <div class="dim">Sıralama: Liste / En Yeni Sinyal / En Yeni AL / En Yeni SAT / Kalite</div>
+      <div class="dim">Filtre: Hepsi / Son AL / Son SAT / Taze Sinyal</div>
+    </div>
+
+    <div class="grid" style="margin-top:28px;">
+      <div class="card">
+        <h4>Tarama Özellikleri</h4>
+        <ul>
+          <li>Çift sütun düzen (20+20)</li>
+          <li>Sinyal yaşına göre renk gradyanı</li>
+          <li>Kalite notu ve skor</li>
+          <li>Sinyalden yüzde değişim</li>
+          <li>Anlık sayım çubuğu (▼/▲)</li>
+          <li>Geçersiz sembol kontrolü</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h4>Grup Yapısı</h4>
+        <p>5 ayrı grup (Lider, Sanayi/Enerji, Finans/GYO, Teknoloji/Sağlık, Perakende/Gıda vb.). Her grupta 40’a kadar hisse. Aktif grup seçilerek çalışır. Tüm grupları görmek için script birden fazla kez eklenebilir.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" style="background:#070B14;">
+  <div class="container">
+    <h2>Alarmlar ve Çalışma Modları</h2>
+    <div class="grid">
+      <div class="card">
+        <h4>Alarmlar</h4>
+        <p>AL · AL+ · BO · SAT · SAT+<br><br>
+        Alarm kurarken mutlaka “Bar kapanışında bir kez” seçeneği kullanılmalıdır. Böylece repaint riski tamamen ortadan kalkar.</p>
+      </div>
+      <div class="card">
+        <h4>Çalışma Modları</h4>
+        <ul>
+          <li>Sinyal + Tarama (tam özellik)</li>
+          <li>Sadece Tarama (grafik çizimi kapalı, sadece tablo)</li>
+        </ul>
+        <p style="margin-top:10px;">Ağır grafik yükünden kaçınmak veya sadece tarama yapmak isteyenler için ayrı mod mevcuttur.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="container">
+  <div class="coming">
+    <h3>Optimum Trader İçin Ustalık Eseri</h3>
+    <p style="color:var(--muted); max-width:660px; margin:16px auto 0; font-size:16.5px; line-height:1.75;">
+      Güven arayanlar için tasarlandı.<br>
+      Sinyal yalnızca kapanışta gelir — repaint yoktur.<br>
+      Aynı yönde sürekli işlem açılmaz (Sıralı Kilit).<br>
+      Sayım periyodu 1 yapılarak sıfır gecikme elde edilebilir.<br>
+      Geometri, kalite skoru ve yapısal stop ile filtre uygulanır.<br>
+      5 grup halinde 40’ar hisse taranabilir.
+    </p>
+    <div style="margin-top:24px; color:var(--gold); font-weight:500; font-size:15px;">◆ CRAB SEQUENTIAL v15</div>
+    <div style="font-size:13px; color:var(--dim); margin-top:8px;">Henüz yayınlanmadı. Geliştirme sürüyor.</div>
+  </div>
+</div>
+
+<footer>
+  <div class="container">
+    TradingView Pine Script v6 · BIST odaklı · Kapanış bazlı sinyal üretimi · Repaint yok<br>
+    <span style="font-size:12px;">Yatırım tavsiyesi değildir. Geliştirme aşamasındadır.</span>
+  </div>
+</footer>
+
+</body>
+</html>
